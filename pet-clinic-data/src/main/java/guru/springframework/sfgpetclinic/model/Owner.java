@@ -9,4 +9,8 @@ public class Owner extends Person {
 	public void setPets(Set<Pet> pets) {
 		this.pets = pets;
 	}
+
+	public Set<Pet> getPets() {
+		return pets;
+	}
 }
