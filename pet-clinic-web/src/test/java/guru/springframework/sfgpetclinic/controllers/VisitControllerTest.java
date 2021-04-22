@@ -59,7 +59,7 @@ class VisitControllerTest {
 				.thenReturn(
 						Pet.builder()
 								.id(petId)
-								.birthdate(LocalDate.of(2018,11,13))
+								.birthDate(LocalDate.of(2018,11,13))
 								.name("Cutie")
 								.visits(new HashSet<>())
 								.owner(Owner.builder()
